@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A730BF3920903F17009EDD1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A730BF3820903F17009EDD1E /* main.m */; };
-		A730BF4120903F3C009EDD1E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A730BF4020903F3C009EDD1E /* OpenAL.framework */; };
-		A730BF4320903F4C009EDD1E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A730BF4220903F4C009EDD1E /* AudioToolbox.framework */; };
+		A75ED1102091043D00A477C5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A75ED10F2091043D00A477C5 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A730BF3320903F17009EDD1E /* CopyFiles */ = {
+		A75ED10A2091043D00A477C5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,123 +23,109 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A730BF3520903F17009EDD1E /* CA9-OpenALOrbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CA9-OpenALOrbit"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A730BF3820903F17009EDD1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A730BF4020903F3C009EDD1E /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
-		A730BF4220903F4C009EDD1E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A75ED10C2091043D00A477C5 /* CA9-OpenALOrbitStreamingSource */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CA9-OpenALOrbitStreamingSource"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75ED10F2091043D00A477C5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A730BF3220903F17009EDD1E /* Frameworks */ = {
+		A75ED1092091043D00A477C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A730BF4320903F4C009EDD1E /* AudioToolbox.framework in Frameworks */,
-				A730BF4120903F3C009EDD1E /* OpenAL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A730BF2C20903F17009EDD1E = {
+		A75ED1032091043D00A477C5 = {
 			isa = PBXGroup;
 			children = (
-				A730BF3720903F17009EDD1E /* CA9-OpenALOrbit */,
-				A730BF3620903F17009EDD1E /* Products */,
-				A730BF3F20903F3C009EDD1E /* Frameworks */,
+				A75ED10E2091043D00A477C5 /* CA9-OpenALOrbitStreamingSource */,
+				A75ED10D2091043D00A477C5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A730BF3620903F17009EDD1E /* Products */ = {
+		A75ED10D2091043D00A477C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A730BF3520903F17009EDD1E /* CA9-OpenALOrbit */,
+				A75ED10C2091043D00A477C5 /* CA9-OpenALOrbitStreamingSource */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A730BF3720903F17009EDD1E /* CA9-OpenALOrbit */ = {
+		A75ED10E2091043D00A477C5 /* CA9-OpenALOrbitStreamingSource */ = {
 			isa = PBXGroup;
 			children = (
-				A730BF3820903F17009EDD1E /* main.m */,
+				A75ED10F2091043D00A477C5 /* main.c */,
 			);
-			path = "CA9-OpenALOrbit";
-			sourceTree = "<group>";
-		};
-		A730BF3F20903F3C009EDD1E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A730BF4220903F4C009EDD1E /* AudioToolbox.framework */,
-				A730BF4020903F3C009EDD1E /* OpenAL.framework */,
-			);
-			name = Frameworks;
+			path = "CA9-OpenALOrbitStreamingSource";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A730BF3420903F17009EDD1E /* CA9-OpenALOrbit */ = {
+		A75ED10B2091043D00A477C5 /* CA9-OpenALOrbitStreamingSource */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A730BF3C20903F17009EDD1E /* Build configuration list for PBXNativeTarget "CA9-OpenALOrbit" */;
+			buildConfigurationList = A75ED1132091043D00A477C5 /* Build configuration list for PBXNativeTarget "CA9-OpenALOrbitStreamingSource" */;
 			buildPhases = (
-				A730BF3120903F17009EDD1E /* Sources */,
-				A730BF3220903F17009EDD1E /* Frameworks */,
-				A730BF3320903F17009EDD1E /* CopyFiles */,
+				A75ED1082091043D00A477C5 /* Sources */,
+				A75ED1092091043D00A477C5 /* Frameworks */,
+				A75ED10A2091043D00A477C5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "CA9-OpenALOrbit";
-			productName = "CA9-OpenALOrbit";
-			productReference = A730BF3520903F17009EDD1E /* CA9-OpenALOrbit */;
+			name = "CA9-OpenALOrbitStreamingSource";
+			productName = "CA9-OpenALOrbitStreamingSource";
+			productReference = A75ED10C2091043D00A477C5 /* CA9-OpenALOrbitStreamingSource */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A730BF2D20903F17009EDD1E /* Project object */ = {
+		A75ED1042091043D00A477C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Perrin Cloutier";
 				TargetAttributes = {
-					A730BF3420903F17009EDD1E = {
+					A75ED10B2091043D00A477C5 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = A730BF3020903F17009EDD1E /* Build configuration list for PBXProject "CA9-OpenALOrbit" */;
+			buildConfigurationList = A75ED1072091043D00A477C5 /* Build configuration list for PBXProject "CA9-OpenALOrbitStreamingSource" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A730BF2C20903F17009EDD1E;
-			productRefGroup = A730BF3620903F17009EDD1E /* Products */;
+			mainGroup = A75ED1032091043D00A477C5;
+			productRefGroup = A75ED10D2091043D00A477C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A730BF3420903F17009EDD1E /* CA9-OpenALOrbit */,
+				A75ED10B2091043D00A477C5 /* CA9-OpenALOrbitStreamingSource */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A730BF3120903F17009EDD1E /* Sources */ = {
+		A75ED1082091043D00A477C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A730BF3920903F17009EDD1E /* main.m in Sources */,
+				A75ED1102091043D00A477C5 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A730BF3A20903F17009EDD1E /* Debug */ = {
+		A75ED1112091043D00A477C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -199,7 +183,7 @@
 			};
 			name = Debug;
 		};
-		A730BF3B20903F17009EDD1E /* Release */ = {
+		A75ED1122091043D00A477C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -250,24 +234,20 @@
 			};
 			name = Release;
 		};
-		A730BF3D20903F17009EDD1E /* Debug */ = {
+		A75ED1142091043D00A477C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LHVTYN77KH;
-				GCC_INPUT_FILETYPE = automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		A730BF3E20903F17009EDD1E /* Release */ = {
+		A75ED1152091043D00A477C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LHVTYN77KH;
-				GCC_INPUT_FILETYPE = automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -275,25 +255,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A730BF3020903F17009EDD1E /* Build configuration list for PBXProject "CA9-OpenALOrbit" */ = {
+		A75ED1072091043D00A477C5 /* Build configuration list for PBXProject "CA9-OpenALOrbitStreamingSource" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A730BF3A20903F17009EDD1E /* Debug */,
-				A730BF3B20903F17009EDD1E /* Release */,
+				A75ED1112091043D00A477C5 /* Debug */,
+				A75ED1122091043D00A477C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A730BF3C20903F17009EDD1E /* Build configuration list for PBXNativeTarget "CA9-OpenALOrbit" */ = {
+		A75ED1132091043D00A477C5 /* Build configuration list for PBXNativeTarget "CA9-OpenALOrbitStreamingSource" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A730BF3D20903F17009EDD1E /* Debug */,
-				A730BF3E20903F17009EDD1E /* Release */,
+				A75ED1142091043D00A477C5 /* Debug */,
+				A75ED1152091043D00A477C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A730BF2D20903F17009EDD1E /* Project object */;
+	rootObject = A75ED1042091043D00A477C5 /* Project object */;
 }
